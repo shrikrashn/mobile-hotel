@@ -29,9 +29,15 @@ a {
 .banner-inner .slick-dots li.slick-active button::before {color: #2F80ED;opacity: 1;}
 .search-slider .banner-inner .slick-dots{padding-bottom: 10px; text-align: center;}
 .book-room .banner-inner .slick-dots{padding-bottom: 10px;padding-right: 0px;text-align: center;}
+.banner-inner .img-gallery .slick-dots{bottom: -40px;}
+.banner-inner .img-gallery .slick-dots li{margin: 0;}
+.banner-inner .img-gallery .slick-dots li button::before{color: lightgray; font-size: 6px;}
+.banner-inner .img-gallery .slick-dots li.slick-active button::before {color: #2F80ED;}
+.slick-current figure{border: 2px solid #2F80ED;}
 .mobile-menu:focus + .menu-bar{display: block;}
 .filter-main h2 a:focus + .filter-side{display: block;}
 .location:focus + .location-filter, .price:focus + .price-filter, .rating:focus + .review-filter, .more:focus + .facilities-services, .reviews:focus + .review-top
 {display:block;}
 .edit:focus + .search-edit, .detail:focus + .review-top{display: block;}
 .bookroom:focus + .book-room, .paynow:focus + .thankyou{display: block;}
+input.inpt-search:focus + .search-result, .gallery-view:focus + .img-gallery{display: block;}

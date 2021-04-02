@@ -4,7 +4,7 @@ import FacilitiesService from './FacilitiesService'
 export default function Facilities() {
     return (
         <>
-            <section id="amenities" className="facilities py-5">
+            <section id="amenities" className="facilities pt-10">
                 <div className="container px-5 mx-auto">
                     <h2 class="text-gray-700 text-lg font-bold uppercase mb-3">Facilities</h2>
                     <ul className="flex justify-between items-center mt-2">

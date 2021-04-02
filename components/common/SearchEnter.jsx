@@ -104,7 +104,6 @@ export default function SearchEnter() {
                     </li>
                 </ul>
             </div>
-            <button className="text-white text-sm block rounded-full bg-blue-500 py-2 font-bold w-full" type="button">Apply</button>
             </section>
         </>
     )

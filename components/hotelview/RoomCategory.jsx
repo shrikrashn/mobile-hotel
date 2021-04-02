@@ -4,7 +4,7 @@ import BookRoomPopup from '../payment/BookRoomPopup'
 export default function RoomCategory() {
     return (
         <>
-            <section id="category" className="room-category pt-5">
+            <section id="category" className="room-category pt-6">
                 <div className="container px-5 mx-auto">
                     <h2 className="text-gray-700 text-lg font-bold uppercase mb-2">ROOM CATEGORY</h2>
                     <div className="room-box border border-gray-200 rounded py-4 px-2 relative mb-3">
@@ -56,7 +56,7 @@ export default function RoomCategory() {
                             </div>
                         </div>
                     </div>
-                    <div className="room-box border border-gray-200 rounded py-4 px-2 relative mb-3">
+                    <div className="room-box border border-gray-200 rounded py-4 px-2 relative">
                         <h2 className="font-bold text-lg text-gray-700">Deluxe Twin
                             <p className="flex items-center text-sm text-gray-700 font-normal">
                                 <img className="mr-1" src="images/bed.svg" alt="icon"/> 2 single-bed 

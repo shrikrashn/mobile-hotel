@@ -1,6 +1,7 @@
 import React from 'react'
 import EditDate from '../hotelview/EditDate'
 import EditTime from '../payment/EditTime'
+import ImgGallery from './ImgGallery'
 
 export default function BannerTop() {
     return (
@@ -19,10 +20,13 @@ export default function BannerTop() {
                 <div className="container mx-auto px-5 -mt-12">
                     <div className="banner-inner">
                         <figure className="overflow-hidden relative">
-                            <img className="w-full" src="images/banner-top.jpg" alt="image"/>
-                            <figcaption className="absolute top-3 right-0 bg-white">
-                                <p className="text-gray-600 text-sm pl-2 py-1 pr-1">2000 Reviews <span className="text-white bg-green-600 rounded px-1 ml-1">4.5</span></p>
-                            </figcaption>
+                            <a className="gallery-view" href="">
+                                <img className="w-full" src="images/banner-top.jpg" alt="image"/>
+                                <figcaption className="absolute top-3 right-0 bg-white">
+                                    <p className="text-gray-600 text-sm pl-2 py-1 pr-1">2000 Reviews <span className="text-white bg-green-600 rounded px-1 ml-1">4.5</span></p>
+                                </figcaption>
+                            </a>
+                            <ImgGallery />
                         </figure>
                     </div>
                     <EditDate />

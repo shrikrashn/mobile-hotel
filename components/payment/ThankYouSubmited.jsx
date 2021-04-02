@@ -3,7 +3,7 @@ import React from 'react'
 export default function ThankYouSubmited() {
     return (
         <>
-            <section className="thankyou bg-white pt-20  left-0 top-0 z-30 w-full h-full fixed hidden">
+            <section className="thankyou bg-white pt-20  left-0 top-0 z-30 w-full h-full fixed hidden overflow-y-auto">
                 <div className="container px-5 mx-auto">
                     <figure className="text-center">
                         <img className="mx-auto" src="/images/thankyou.png" alt="img"/>

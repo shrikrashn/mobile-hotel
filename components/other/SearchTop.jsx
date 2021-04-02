@@ -6,7 +6,7 @@ export default function SearchTop() {
         <>
             <section className="search-mobile">
                 <div className="top-search bg-blue-500">
-                    <div className="container px-5 pt-5 pb-5 mx-auto relative">
+                    <div className="container px-5 pt-5 pb-3 mx-auto relative">
                         <div className="dates flex items-end justify-between">
                             <div className="text-sm text-white flex items-center">
                                 <a href="/">

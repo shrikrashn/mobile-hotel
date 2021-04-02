@@ -4,7 +4,7 @@ export default function RoomBooking() {
     return (
         <>
             <section id="overview" className="room-booking px-5 py-1">
-                <div className="head bg pb-5 pt-2">
+                <div className="head bg pb-5 pt-5">
                     <h1 className="text-lg font-bold text-gray-700 pb-3">The Zion - Shimla</h1>
                     <p className="text-sm text-gray-700 flex items-start ">
                         <svg className="w-8 text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

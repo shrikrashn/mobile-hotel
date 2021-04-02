@@ -3,9 +3,9 @@ import React from 'react'
 export default function TopFilter() {
     return (
         <>
-            <section className="top-filter pt-2 bg-blue-500 sticky top-0 z-10">
+            <section className="top-filter bg-blue-500 sticky top-0 z-10">
                 <div className="container px-5 mx-auto">
-                    <ul className="flex pb-4 overflow-x-auto whitespace-nowrap">
+                    <ul className="flex pb-2 overflow-x-auto whitespace-nowrap">
                         <li>
                             <a className="text-xs text-white px-1.5 active:bg-red-800" href="#overview">Overview</a>
                         </li>

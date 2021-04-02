@@ -11,7 +11,7 @@ export default function BottomFixed() {
                     </p>
                 </div>
                 <div className="right-btn w-1/2">
-                    <a href="" class="paynow rounded-full bg-blue-500 text-white py-2 px-6 hover:bg-white hover:text-gray-600 w-full mt-2 block text-center">Pay Now</a>
+                    <a href="" class="paynow rounded-full bg-blue-500 text-white py-2 px-6 hover:bg-blue-600  w-full mt-2 block text-center">Pay Now</a>
                     <ThankYouSubmited />
                 </div>
             </div>

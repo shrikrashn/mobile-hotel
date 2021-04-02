@@ -3,7 +3,7 @@ import React from 'react'
 export default function SearchEdit() {
     return (
         <>
-            <section className="search-edit bg-blue-500  pb-5 hidden absolute left-0 top-16 z-50">
+            <section className="search-edit bg-blue-500 pb-5 hidden absolute left-0 top-16 z-50">
                 <div className="container px-5 mx-auto">
                     <div className="form bg-blue-600 p-1 rounded">
                         <form>

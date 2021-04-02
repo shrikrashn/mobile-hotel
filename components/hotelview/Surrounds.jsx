@@ -3,7 +3,7 @@ import React from 'react'
 export default function Surrounds() {
     return (
         <>
-            <section className="surround py-3">
+            <section className="surround pt-3">
                 <div className="container px-5 mx-auto">
                     <h2 class="text-gray-700 text-lg font-bold capitalize">Property Surrounds</h2>
                     <div className="repeat py-4">
@@ -30,7 +30,7 @@ export default function Surrounds() {
                             </li>
                         </ul>
                     </div>
-                    <div className="repeat py-4">
+                    <div className="repeat pt-4">
                         <h3 class="text-gray-700 text-base font-normal uppercase mb-2 flex items-center"> 
                             <img className="mr-1" src="images/railway.svg" alt="icon" />Railway Station
                         </h3>

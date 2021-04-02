@@ -3,7 +3,7 @@ import React from 'react'
 export default function Location() {
     return (
         <>
-             <section id="location" className="location-section py-5">
+             <section id="location" className="location-section pb-5 pt-10">
                 <div className="container px-5 mx-auto flex flex-wrap">
                     <h2 class="text-gray-700 text-lg font-bold uppercase mb-4">Location</h2>
                     <div className="weather md:w-2/5 w-full">
