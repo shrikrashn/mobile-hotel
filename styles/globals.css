@@ -1,5 +1,5 @@
 html,
-body {
+body {scroll-behavior: smooth;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+:-moz-focusring {
+  outline: 0px!important;
+}
+.open{overflow: hidden;display: none;}
+.faq-in input[type=radio] { display: none;}
+.faq-in label {position: relative;cursor: pointer;  }
+.faq-in label:after {content: "+";position: absolute;right: 1em;color: #2F80ED;font-size: 25px; }
+.faq-in input:checked + label:after {content: "-";color: #2F80ED;font-size: 28px; }
+.faq-in input:checked ~ .open {display: block; }
+.banner-inner .slick-dots{bottom: 0; text-align: right; padding-bottom: 50px; padding-right: 20px;}
+.banner-inner .slick-dots li{margin: 0;}
+.banner-inner .slick-dots li button::before {color: #fff;font-size:10px;opacity: 1;}
+.banner-inner .slick-dots li.slick-active button::before {color: #2F80ED;opacity: 1;}
+.search-slider .banner-inner .slick-dots{padding-bottom: 10px; text-align: center;}
+.book-room .banner-inner .slick-dots{padding-bottom: 10px;padding-right: 0px;text-align: center;}
+.mobile-menu:focus + .menu-bar{display: block;}
+.filter-main h2 a:focus + .filter-side{display: block;}
+.location:focus + .location-filter, .price:focus + .price-filter, .rating:focus + .review-filter, .more:focus + .facilities-services, .reviews:focus + .review-top
+{display:block;}
+.edit:focus + .search-edit, .detail:focus + .review-top{display: block;}
+.bookroom:focus + .book-room, .paynow:focus + .thankyou{display: block;}
